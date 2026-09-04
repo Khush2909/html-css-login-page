@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    background-image: url("wp9078348.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    display: flex;
+    
+    margin-top: 200px;
+    flex-direction: column;
+    background-color: brown;
+    height: 60%;
+     width: 270px;
+    padding: 35px;
+       border: 1px solid rgba(83, 73, 73, 0.35);
+    border-radius: 20px;
+   background: rgba(59, 51, 51, 0.15);
+ backdrop-filter: blur(20px);
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     color: white;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+    margin-top: 0px;
+    align-self: center;
+}
+input{
+     background: rgba(59, 51, 51, 0.15);
+    border: 1px solid rgba(236, 232, 232, 0.4);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 15px;
+}
+input::placeholder{
+    color: aliceblue;
+}
+select {
+    background: rgba(59, 51, 51, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 15px;
+}
+select::placeholder{
+    color: aliceblue;
+}
+input:hover,
+select:hover {
+    background: rgba(255,255,255,0.2);
+    border-color: white;
+    transition: 0.3s ease;
+}
+
+.username{
+           margin-top: 20px;
+           margin-bottom: 20px; 
+           
+}
+
+.username input{
+    width: 250px;
+    height: 25px;
+    padding: 5px;
+  
+
+     cursor: pointer;
+}
+
+.branch{
+              
+           margin-bottom: 20px; 
+}
+.branch select{
+    width: 265px;
+    height: 41px;
+    padding: 5px;
+   
+   
+    text-shadow: 2px;
+     cursor: pointer;
+}
+         
+.roll{
+             
+           margin-bottom: 20px;
+           
+}
+.roll input{
+     width: 250px;
+    height: 25px;
+    padding: 5px;
+   
+       
+         cursor: pointer;
+}
+.Submit{
+       
+        align-self: center;
+        background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    
+    padding: 10px;
+    color: white;
+        border-radius: 20px;
+         cursor: pointer;
+       
+}
+button:hover {
+  
+     transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255,255,255,0.3);
+}
+
+@media (max-width: 600px) {
+
+}
